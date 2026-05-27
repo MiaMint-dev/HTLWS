@@ -52,6 +52,7 @@ body {
     backdrop-filter: blur(4px);
 }
 .ocean {
+    background-image: url('Media/ocean\ of\ thoughts\ home.png');
     display:block;
     width: 450px;
     margin-right: auto;
