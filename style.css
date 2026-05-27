@@ -1,0 +1,148 @@
+body {
+    background: rgb(84,69,62);
+    
+}
+.main-title {
+    justify-self: center;
+    text-align: center;
+    color: rgb(212, 193, 161);
+    background-image: url(media/HTLWS.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(216, 216, 216);
+    margin-top: 40px;
+    width: 641px;
+    height: 131px;
+}
+
+.snippet-generator {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    align-content: center;
+    text-align: center;
+    font-size: 13px;
+} 
+#led-board {
+    width: 77%;
+    height: 80px;
+    background-color: rgb(0, 0, 0);
+    box-shadow: 0 0 5px rgb(21, 27, 54), 0 0 19px rgb(21, 27, 54);
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 40px;
+   
+}
+.home-navigation {
+    display: flex;
+    font-size: 17px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(84,69,62);
+    position: relative;
+    text-align: center;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    border-top: 0px solid #ffffff75;
+    border-left: 0px solid #FFFFFF75;
+    box-shadow: 5px 5px 12px #00000035 ;
+    background: #ffffff15;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 1px;
+    overflow: hidden;
+    backdrop-filter: blur(4px);
+}
+.ocean {
+    display:block;
+    width: 450px;
+    margin-right: auto;
+    margin-top: 50px;
+}
+.weeknd {
+    display:block;
+    width: 450px;
+    margin-left: auto;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.tenant {
+    display:block;
+    width: 450px;
+    margin-left: auto;
+    margin-top: 80px;
+}
+.paled {
+    display:block;
+    width: 450px;
+    margin-right: auto;
+    margin-top: 50px;
+}
+.back-home-a {
+    font-size: 20px;
+    justify-content: space-between;
+}
+.about {
+    font-family: 'Elsie Swash Caps';
+    font-size: 44px;
+    text-align: center;   
+    color:rgb(177, 169, 169); 
+    margin-bottom: 40px;
+}
+.synopsis {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+    text-align: justify;
+    justify-self: center;
+    width: 57%;
+    margin-top: 30px;
+    line-height: 1.5;
+    color: rgb(216, 216, 216);
+   
+}
+.motto {
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 23px;
+    text-align: center;
+    justify-self: center;
+    width: 57%;
+    margin-top: 30px;
+    line-height: 1.5;
+    color: rgb(216, 216, 216);
+}
+.footer a {
+    display: block;
+    background-image: url('Instagram.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 60px;
+    width: 60px;
+    margin-top: 100px;
+    justify-self: center;
+}
+.chapter-1 {
+    display: flex;
+    color: rgb(3, 3, 3);
+    background:rgb(197, 193, 193);
+    font-size: 19px;
+    text-align: justify;
+    justify-self: center;
+    padding: 0px 70px;
+    width: 45%;
+    line-height: 1.5;
+    margin-top: 70px;
+    user-select: none;        
+    
+}
+
+#snippet-generator {
+    display: block;
+    justify-self: center;
+}
+a:link {
+    color: bisque;
+}
+a:visited {
+    color:rgb(216, 204, 204);
+}
+a:hover {
+    color:rgba(133, 131, 131, 0.856);
+}
