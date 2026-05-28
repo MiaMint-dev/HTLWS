@@ -118,6 +118,7 @@ body {
     margin-top: 100px;
     justify-self: center;
 }
+@media (max-width: 768px) {
 .chapter {
     display: flex;
     color: rgb(255, 255, 255);
@@ -126,13 +127,13 @@ body {
     text-align: justify;
     justify-self: center;
     padding: 0px 70px;
-    max-width: 85%;
+    width: 85%;
     line-height: 1.5;
     margin-top: 70px;
     user-select: none;        
     
 }
-
+}
 #snippet-generator {
     display: block;
     justify-self: center;
