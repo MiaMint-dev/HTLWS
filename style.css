@@ -52,7 +52,6 @@ body {
     backdrop-filter: blur(4px);
 }
 .ocean {
-    background-image: url('Media/ocean\ of\ thoughts\ home.png');
     display:block;
     width: 450px;
     margin-right: auto;
@@ -121,13 +120,13 @@ body {
 }
 .chapter-1 {
     display: flex;
-    color: rgb(3, 3, 3);
-    background:rgb(197, 193, 193);
-    font-size: 19px;
+    color: rgb(255, 255, 255);
+    
+    font-size: 21px;
     text-align: justify;
     justify-self: center;
     padding: 0px 70px;
-    width: 45%;
+    width: 85%;
     line-height: 1.5;
     margin-top: 70px;
     user-select: none;        
