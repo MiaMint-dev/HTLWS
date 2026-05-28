@@ -118,7 +118,7 @@ body {
     margin-top: 100px;
     justify-self: center;
 }
-@media (max-width: 768px) {
+
 .chapter {
     display: flex;
     color: rgb(255, 255, 255);
@@ -133,7 +133,7 @@ body {
     user-select: none;        
     
 }
-}
+
 #snippet-generator {
     display: block;
     justify-self: center;
