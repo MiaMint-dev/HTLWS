@@ -2,11 +2,15 @@ body {
     background: rgb(84,69,62);
     
 }
+h1 {
+    text-align: center;
+    color: white;
+}
 .main-title {
     justify-self: center;
     text-align: center;
     color: rgb(212, 193, 161);
-    background-image: url('Media/someone had my back.png');
+    background-image: url('Media/HTLWS.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-color: rgb(216, 216, 216);
@@ -118,7 +122,30 @@ body {
     margin-top: 100px;
     justify-self: center;
 }
-
+.windows{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    margin-top: 70px;
+}
+.window {
+    display: flexbox;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    
+}
+.window-1 {
+    height: 175px;
+    width: 175px;
+}
+.under-window {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
+    color: white;
+    margin-left: 55px;
+    
+}
 .chapter {
     display: flex;
     color: rgb(255, 255, 255);
@@ -129,10 +156,9 @@ body {
     width: 90%;
     line-height: 1.6;
     margin-top: 70px;
-    user-select: none;        
-    
+    user-select: none;   
+    text-indent: 40px;     
 }
-
 #snippet-generator {
     display: block;
     justify-self: center;
