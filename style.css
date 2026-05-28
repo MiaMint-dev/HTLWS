@@ -122,13 +122,12 @@ body {
 .chapter {
     display: flex;
     color: rgb(255, 255, 255);
-    
     font-size: 21px;
     text-align: justify;
     justify-self: center;
     padding: 0px 70px;
-    width: 85%;
-    line-height: 1.5;
+    width: 90%;
+    line-height: 1.6;
     margin-top: 70px;
     user-select: none;        
     
