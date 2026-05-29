@@ -6,6 +6,49 @@ h1 {
     text-align: center;
     color: white;
 }
+.countdown {
+    display:block;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+.countdown h1{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 21px;
+    
+    justify-self: center;
+}
+.timebox {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+    font-weight: bolder;
+    color: white;
+    background-color: black;
+    background-image: url(Media/countdownbackground.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 150px;
+    width: 450px;
+    justify-self: center;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.time {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 10px;
+    margin-bottom: 0px;
+}
+.time p {
+    margin-top: 0px;
+    margin-bottom: 2PX;
+}
+
 .main-title {
     justify-self: center;
     text-align: center;
@@ -31,7 +74,7 @@ h1 {
     height: 80px;
     background-color: rgb(0, 0, 0);
     box-shadow: 0 0 5px rgb(21, 27, 54), 0 0 19px rgb(21, 27, 54);
-    color: white;
+    color: rgb(255, 202, 28);
     font-family: 'Courier New', Courier, monospace;
     margin-top: 40px;
    
@@ -120,20 +163,15 @@ h1 {
     height: 60px;
     width: 60px;
     margin-top: 100px;
+    margin-bottom: 0px;
     justify-self: center;
 }
-.windows{
-    display: flex;
-    justify-content: space-evenly;
-    flex-direction: row;
+.window-grid{
+    display: grid;
+    grid-template-columns: repeat(4, 175px);
+    gap: 10%;
     margin-top: 115px;
-}
-.window {
-    display: flexbox;
-    flex-direction: column;
-    justify-content: space-between;
-    
-    
+    justify-content: center;
 }
 .window-1 {
     height: 175px;
@@ -157,12 +195,13 @@ h1 {
     line-height: 1.6;
     margin-top: 70px;
     user-select: none;   
-    text-indent: 40px;     
+    text-indent: each-line 40px;     
 }
 #snippet-generator {
     display: block;
     justify-self: center;
 }
+
 a:link {
     color: bisque;
 }
