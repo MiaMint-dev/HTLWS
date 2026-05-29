@@ -146,7 +146,7 @@ h1 {
    
 }
 .motto {
-     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 23px;
     text-align: center;
     justify-self: center;
@@ -168,20 +168,21 @@ h1 {
 }
 .window-grid{
     display: grid;
-    grid-template-columns: repeat(3, 175px);
-    gap: 10%;
+    grid-template-columns: repeat(3, 215px);
+    gap: 80px 10%;
     margin-top: 115px;
-    justify-content: center;
+    justify-content: center; 
 }
 .window-1 {
-    height: 175px;
-    width: 175px;
+    height: 215px;
+    width: 215px;
+    
 }
 .under-window {
     font-family: 'Times New Roman', Times, serif;
     font-size: 17px;
     color: white;
-    margin-left: 55px;
+    margin-left: 74px;
     
 }
 .chapter {
