@@ -168,7 +168,7 @@ h1 {
 }
 .window-grid{
     display: grid;
-    grid-template-columns: repeat(4, 175px);
+    grid-template-columns: repeat(3, 175px);
     gap: 10%;
     margin-top: 115px;
     justify-content: center;
