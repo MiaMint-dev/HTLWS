@@ -166,6 +166,9 @@ h1 {
     margin-bottom: 0px;
     justify-self: center;
 }
+.footer {
+    margin-bottom: 0;
+}
 .window-grid{
     display: grid;
     grid-template-columns: repeat(3, 215px);
