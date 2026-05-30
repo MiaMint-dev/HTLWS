@@ -1,5 +1,8 @@
 body {
     background: rgb(84,69,62);
+    background-image: url('Media/wall.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 h1 {
     text-align: center;
@@ -167,12 +170,13 @@ h1 {
     margin-bottom: 0px;
     justify-self: center;
 }
-.footer {
+footer {
     display: grid;
     justify-items: center;
 }
 #red {
     background-size: contain;
+    
 }
 .window-grid{
     display: grid;
@@ -184,6 +188,7 @@ h1 {
 .window-1 {
     height: 215px;
     width: 215px;
+    box-shadow: 0 0 5px rgb(0, 0, 0), 0 0 19px rgb(0, 0, 0);
     
 }
 .under-window {
