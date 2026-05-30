@@ -24,7 +24,19 @@ function timer () {
     Hours.innerHTML = "00";
     Minutes.innerHTML = "00";
     Seconds.innerHTML = "00";
+    return;
     }
 }
 
 setInterval(timer, 1000);
+
+const button =document.getElementById('red');
+
+const clickSound = new Audio('vine_boom.mp3');
+
+button.addEventListener('click', () => {
+
+  clickSound.currentTime = 0;
+
+  clickSound.play();
+});
