@@ -1,15 +1,5 @@
-html, body {
-    min-height: 100vh;
-    margin: 0;
-}
 body {
     background: rgb(84,69,62);
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-}
-main {
-    flex: 1;
 }
 h1 {
     text-align: center;
