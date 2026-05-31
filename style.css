@@ -236,6 +236,10 @@ footer {
     justify-content: center;
     align-items: center;
 }
+.card1 img {
+    width: min(400px, 90vw);
+    height: auto;
+}
 .card-content {
     padding: 20px;
 }
