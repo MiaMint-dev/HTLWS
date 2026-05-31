@@ -36,6 +36,7 @@ setInterval(timer, 1000);
 const button =document.getElementById('red');
 if (button) {
 const clickSound = new Audio('vine_boom.mp3');
+  clickSound.volume = 0.5;
 
 button.addEventListener('click', () => {
 
