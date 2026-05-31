@@ -3,6 +3,7 @@ const Hours = document.getElementById('hours');
 const Minutes = document.getElementById('minutes');
 const Seconds = document.getElementById('seconds');
 
+if (Days && Hours && Minutes && Seconds) {
 const targetDate = new Date("June 1 2026 00:00:00").getTime();
 
 function timer () {
@@ -29,9 +30,11 @@ function timer () {
 }
 
 setInterval(timer, 1000);
+}
+
 
 const button =document.getElementById('red');
-
+if (button) {
 const clickSound = new Audio('vine_boom.mp3');
 
 button.addEventListener('click', () => {
@@ -40,3 +43,62 @@ button.addEventListener('click', () => {
 
   clickSound.play();
 });
+}
+
+
+const mug1 = document.getElementById('rain-mug');
+const card1 = document.getElementById('rain-card');
+const close1 = document.getElementById('close1');
+const mug2 = document.getElementById('egon-mug');
+const card2 = document.getElementById('egon-card');
+const close2 = document.getElementById('close2');
+const mug3 = document.getElementById('hael-mug');
+const card3 = document.getElementById('hael-card');
+const close3 = document.getElementById('close3');
+const mug4 = document.getElementById('vaughn-mug');
+const card4 = document.getElementById('vaughn-card');
+const close4 = document.getElementById('close4');
+
+if (mug1 && card1) {
+mug1.addEventListener("click", () => {
+  card1.classList.remove("hidden");
+});
+}
+if (close1 && card1) {
+close1.addEventListener("click", () => {
+  card1.classList.add("hidden");
+});
+}
+
+if (mug2 && card2) {
+  mug2.addEventListener("click", () => {
+    card2.classList.remove("hidden");
+  });
+}
+if (close2 && card2) {
+  close2.addEventListener("click", () => {
+    card2.classList.add("hidden");
+  });
+}
+if (mug3 && card3) {
+  mug3.addEventListener("click", () => {
+    card3.classList.remove("hidden");
+  });
+}
+if (close3 && card3) {
+  close3.addEventListener("click", () => {
+    card3.classList.add("hidden");
+  });
+}
+if (mug4 && card4) {
+  mug4.addEventListener("click", () => {
+    card4.classList.remove("hidden");
+  });
+}
+if (close4 && card4) {
+  close4.addEventListener("click", () => {
+    card4.classList.add("hidden");
+  });
+}
+
+
