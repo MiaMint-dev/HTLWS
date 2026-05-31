@@ -1,22 +1,65 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Book Files</title>
+    <title>Mugs</title>
     <link href="style.css" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
-<body class = "characters-body">
-    <p style="color: white;
-    font-family: 'Courier New', Courier, monospace; font-size: 25px; text-align: center;"> 
-    under construction </p>
+<body>
 <nav>
   <a href="./index.html">Back Home</a>    
 </nav> 
+<h1 style="font-family: 'Times New Roman', Times, serif;"> The Mugs</h1>
+<p style="font-family: 'Courier New', Courier, monospace; color: white; text-align: center;">Click on a mug <br>*sound plays on low volume*</p>
+<div class="mug-grid">
+<div>
+  <img class ="mug1" src="Media/rain-mug.png" id="rain-mug" alt = "coffee mug">
+    <p class ="under-mug">Rain's mug</p>
+</div>   
+<div>    
+  <img class ="mug2" src="Media/egon-mug.png" id="egon-mug" alt = "tea mug with two cookies">
+    <p class ="under-mug">Egon's mug</p>
+</div>    
+<div>
+  <img class ="mug3" src="Media/hael-mug.png" id="hael-mug" alt = "coffee mug with two cookies">
+    <p class ="under-mug">Hael's mug</p>
+</div>
+<div>    
+  <img class ="mug4" src="Media/vaughn-mug.png" id="vaughn-mug" alt = "tea mug with two cookies">
+    <p class ="under-mug">Vaughn's mug</p>
+</div>
+</div>
+
+<div class="card1 hidden" id="rain-card">
+    <div class="card-content">
+        <img src="Media/rain-card.webp">
+        <button id="close1">X</button>
+    </div>
+</div>   
+<div class="card2 hidden" id="egon-card">
+    <div class="card-content">
+        <img src="Media/rain-card.png">
+        <button id="close2">X</button>
+    </div>
+</div> 
+<div class="card3 hidden" id="hael-card">
+    <div class="card-content">
+        <img src="Media/rain-card.png">
+        <button id="close3">X</button>
+    </div>
+</div> 
+<div class="card4 hidden" id="vaughn-card">
+    <div class="card-content">
+        <img src="Media/rain-card.png">
+        <button id="close4">X</button>
+    </div>
+</div> 
+
 <footer>
     <p style="font-family: 'Courier New', Courier, monospace;
    color: white; text-align: center; font-size: 14px;"> 
     © 2026 Mia Mint, all rights reserved.</p>
 </footer> 
 </body>    
-<script src="script.js" defer></script>
+<script src="script.js"></script>
 </html>
