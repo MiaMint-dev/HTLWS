@@ -197,7 +197,7 @@ footer {
 }
 .mug-grid {
     display: grid;
-    grid-template-columns: repeat(2, 215px);
+    grid-template-columns: repeat(1, 215px);
     margin-top: 90px;
     margin-bottom: 115px;
     justify-content: center;
