@@ -63,15 +63,12 @@ const mug4 = document.getElementById('vaughn-mug');
 const card4 = document.getElementById('vaughn-card');
 const close4 = document.getElementById('close4');
 
-const icesound = new Audio('vine_boom.mp3');
-icesound.volume = 0.3;
+
 
 if (mug1 && card1) {
 mug1.addEventListener("click", () => {
   card1.classList.remove("hidden");
 
-  icesound.currentTime = 0;
-    icesound.play();
 });
 }
 if (close1 && card1) {

@@ -212,12 +212,19 @@ footer {
     gap: 80px 13%;
 }
 .mug1,
-.mug2,
 .mug3,
 .mug4 {
     height: 250px;
     width: 250px;
     cursor: pointer;
+    margin-left: -25px;
+}
+.mug2 {
+    height: 250px;
+    width: 130px;
+    cursor: pointer;
+    margin-left: 45px;
+    
 }
 .under-mug {
     font-family: 'Times New Roman', Times, serif;
@@ -245,6 +252,14 @@ footer {
     align-items: center;
 }
 .card1 img {
+    width: min(400px, 90vw);
+    height: auto;
+}
+.card2 img {
+    width: min(400px, 90vw);
+    height: auto;
+}
+.card3 img {
     width: min(400px, 90vw);
     height: auto;
 }
@@ -305,6 +320,7 @@ footer {
     top:0;
     bottom: 0;
     position: fixed;
+    border-radius: 10%;
 }
 a:link {
     color: bisque;
