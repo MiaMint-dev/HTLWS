@@ -274,15 +274,15 @@ footer {
 .chapter {
     display: flex;
     color: rgb(255, 255, 255);
-    font-size: 24px;
+    font-size: 23px;
     text-align: justify;
     justify-self: center;
-    padding: 0px 70px;
+    padding: 0px 55px;
     width: 90%;
     line-height: 1.7;
     margin-top: 70px;
     user-select: none;   
-    text-indent: each-line 40px;  
+    text-indent: each-line 35px;  
 }
 .character-tag {
     text-align: center;
