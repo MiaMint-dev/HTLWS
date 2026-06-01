@@ -304,8 +304,9 @@ footer {
     width: 500px;
     height: 350px;
     text-align: center;
-    font-size: 27px;
-    line-height: 90px;
+    font-size: 24px;
+    line-height: 45px;
+    
 }
 .laptop {
     background-image: url('Media/screen1.png');
@@ -314,6 +315,7 @@ footer {
     height: 500px;
     justify-self: center;
     border: dotted 1px green;
+    margin-top: 50px;
     
     
 }
@@ -326,6 +328,35 @@ footer {
     font-weight: bold;
     padding-top: 10px;
     
+}
+.enter {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 50px;
+   
+}
+.enter h4 {
+    padding-top: 19px;
+    
+}
+.enter-key {
+    color: black;
+    background-color: rgb(255, 255, 255) ;
+    border: solid 2px black;
+    border-radius: 17%;
+    font-size: 25px;
+    width: 170px;
+    height: 40px;
+    text-align: center;
+    padding-top: 10px;
+    box-shadow: 0 0 5px rgb(82, 114, 82), 0 0 15px rgb(0, 0, 0);
+    text-shadow: green 0 0 1px;
+    justify-self: center;
+    margin-left: 120px;
+    
+  
 }
 a:link {
     color: bisque;
