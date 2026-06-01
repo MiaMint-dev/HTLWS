@@ -36,7 +36,7 @@ setInterval(timer, 1000);
 const button =document.getElementById('red');
 if (button) {
 const clickSound = new Audio('vine_boom.mp3');
-  clickSound.volume = 0.5;
+clickSound.volume = 0.5;
 
 button.addEventListener('click', () => {
 
@@ -50,12 +50,15 @@ button.addEventListener('click', () => {
 const mug1 = document.getElementById('rain-mug');
 const card1 = document.getElementById('rain-card');
 const close1 = document.getElementById('close1');
+
 const mug2 = document.getElementById('egon-mug');
 const card2 = document.getElementById('egon-card');
 const close2 = document.getElementById('close2');
+
 const mug3 = document.getElementById('hael-mug');
 const card3 = document.getElementById('hael-card');
 const close3 = document.getElementById('close3');
+
 const mug4 = document.getElementById('vaughn-mug');
 const card4 = document.getElementById('vaughn-card');
 const close4 = document.getElementById('close4');
@@ -108,4 +111,19 @@ if (close4 && card4) {
   });
 }
 
+const mailbox = document.getElementById('mail-box');
+const mailcard = document.getElementById('mailcard');
+const mailclose = document.getElementById('mailclose');
+
+if (mailbox && mailcard) {
+  mailbox.addEventListener("click", () => {
+    mailcard.classList.remove("hidden");
+  });
+}
+
+if(mailclose && mailcard) {
+  mailclose.addEventListener("click", () => {
+    mailcard.classList.add("hidden");
+  });
+}
 
