@@ -274,15 +274,18 @@ footer {
 .chapter {
     display: flex;
     color: rgb(255, 255, 255);
-    font-size: 21px;
+    font-size: 24px;
     text-align: justify;
     justify-self: center;
     padding: 0px 70px;
     width: 90%;
-    line-height: 1.6;
+    line-height: 1.7;
     margin-top: 70px;
     user-select: none;   
     text-indent: each-line 40px;  
+}
+.character-tag {
+    text-align: center;
 }
 #snippet-generator {
     display: block;
