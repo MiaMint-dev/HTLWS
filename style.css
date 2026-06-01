@@ -301,32 +301,31 @@ footer {
     background-color: white;
     border: dashed 3px rgb(10, 11, 61);
     font-family: 'Times New Roman', Times, serif;
-    width: 600px;
-    height: 450px;
+    width: 500px;
+    height: 350px;
     text-align: center;
     font-size: 27px;
     line-height: 90px;
 }
 .laptop {
-    background-image: url('Media/screen.jpg');
-    
+    background-image: url('Media/screen1.webp');
     background-size: cover;
-    width: 400px;
-    height: 600px;
+    width: 300px;
+    height: 500px;
     justify-self: center;
+    border: dotted 1px green;
     
     
 }
 .laptop p {
     text-align: center;
-    line-height: 70px;
-    color: red;
+    line-height: 45px;
+    color: green;
     font-family: 'Courier New', Courier, monospace;
-    font-size: 22px;
+    font-size: 19px;
     font-weight: bold;
-    background: black;
-    width: 400px;
-    height: 300px;
+    padding-top: 10px;
+    
 }
 a:link {
     color: bisque;
