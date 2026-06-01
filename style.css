@@ -273,90 +273,38 @@ footer {
     display: block;
     justify-self: center;
 }
-/*mailbox start*/
-.mail {
-    justify-self: center;
-    text-align: center;
-    color: white;
-    font-family: 'Courier New', Courier, monospace;
-}
-.mailbox {
-    cursor: pointer;
-    width: 235px;
-    height: 350px;
-    
-}
-.mailcard-content {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0,0,0,0.6);
-    display: flex;
+/*folders start*/
+.folders {
+    display: grid;
+    grid-template-columns: repeat(2, 200px) ;
+    gap: 100px;
     justify-content: center;
+}
+.folder-green {
+	background: conic-gradient(from -15deg at 60% 20%, 
+      #0000 105deg, rgb(101, 148, 99) 0%);
+      width:200px;
+      height: 140px;
+      margin-top: 40px;    
+      
+}
+.folder-blue {
+	background: conic-gradient(from -15deg at 60% 20%, 
+      #0000 105deg, rgb(132, 197, 235) 0%);
+      width:200px;
+      height: 140px;
+      margin-top: 40px;     
+}
+.folder-content1 {
+    background-color: black;
+    width: 40%;
+    height: 40%;
+    display: block;
     align-items: center;
-}
-.mail-card{
-    background-color: white;
-    border: dashed 3px rgb(10, 11, 61);
-    font-family: 'Times New Roman', Times, serif;
-    width: 500px;
-    height: 350px;
-    text-align: center;
-    font-size: 24px;
-    line-height: 45px;
-    
-}
-.laptop {
-    background-image: url('Media/screen1.png');
-    background-size: cover;
-    width: 300px;
-    height: 500px;
     justify-self: center;
-    border: dotted 1px green;
-    margin-top: 50px;
-    
-    
-}
-.laptop p {
-    text-align: center;
-    line-height: 45px;
-    color: green;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 19px;
-    font-weight: bold;
-    padding-top: 10px;
-    
-}
-.enter {
-    display: flex;
-    flex-direction: row;
-    gap: 20px;
-    justify-content: center;
-    margin-top: 50px;
-   
-}
-.enter h4 {
-    padding-top: 19px;
-    
-}
-.enter-key {
-    color: black;
-    background-color: rgb(255, 255, 255) ;
-    border: solid 2px black;
-    border-radius: 17%;
-    font-size: 25px;
-    width: 170px;
-    height: 40px;
-    text-align: center;
-    padding-top: 10px;
-    box-shadow: 0 0 5px rgb(82, 114, 82), 0 0 15px rgb(0, 0, 0);
-    text-shadow: green 0 0 1px;
-    justify-self: center;
-    margin-left: 120px;
-    
-  
+    top:0;
+    bottom: 0;
+    position: fixed;
 }
 a:link {
     color: bisque;

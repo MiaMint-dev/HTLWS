@@ -111,19 +111,19 @@ if (close4 && card4) {
   });
 }
 
-const mailbox = document.getElementById('mail-box');
-const mailcard = document.getElementById('mailcard');
-const mailclose = document.getElementById('mailclose');
+const foldergreen = document.getElementById('folder-1');
+const foldercard1 = document.getElementById('foldercard-1');
+const folderclose1 = document.getElementById('folderclose1');
 
-if (mailbox && mailcard) {
-  mailbox.addEventListener("click", () => {
-    mailcard.classList.remove("hidden");
+if (foldergreen && foldercard1) {
+  foldergreen.addEventListener("click", () => {
+    foldercard1.classList.remove("hidden");
   });
 }
 
-if(mailclose && mailcard) {
-  mailclose.addEventListener("click", () => {
-    mailcard.classList.add("hidden");
+if(folderclose1 && foldercard1) {
+  folderclose1.addEventListener("click", () => {
+    foldercard1.classList.add("hidden");
   });
 }
 
