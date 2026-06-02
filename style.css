@@ -277,11 +277,10 @@ footer {
     font-size: 23px;
     text-align: justify;
     justify-self: center;
-    padding: 0px 80px;
+    padding: 0px 75px;
     width: 90%;
     line-height: 1.7;
     margin-top: 70px;
-	margin-left: 0px;
     user-select: none;   
     text-indent: each-line 35px;  
 	font-family: 'Times New Roman', Times, serif;
