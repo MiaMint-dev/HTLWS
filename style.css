@@ -283,6 +283,7 @@ footer {
     margin-top: 70px;
     user-select: none;   
     text-indent: each-line 35px;  
+	font-family: 'Times New Roman', Times, serif;
 }
 .character-tag {
     text-align: center;
