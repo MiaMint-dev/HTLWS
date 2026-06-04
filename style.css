@@ -275,8 +275,7 @@ footer {
     font-family: 'Courier New', Courier, monospace;
     text-align: left;
     font-weight: 550;
-	padding-right: 400px;
-    padding-left: 0px ;
+	
 }
 .card-content {
     display: flex;
