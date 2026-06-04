@@ -273,10 +273,8 @@ footer {
     font-family: 'Courier New', Courier, monospace;
     text-align: left;
     font-weight: 550;
-	width: min(400px, 90vw);
+    width: min(400px, 90vw);
     height: auto ;
-}
-	
 }
 .card-content {
     display: flex;
