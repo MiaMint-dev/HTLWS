@@ -28,7 +28,7 @@ h1 {
     font-weight: bolder;
     color: white;
     background-color: black;
-    background-image: url(Media/countdownbackground.jpg);
+    background-image: url('Media/countdownbackground.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     box-shadow: 0 0 5px rgb(36, 30, 27), 0 0 19px rgb(36, 30, 27);
@@ -202,36 +202,29 @@ footer {
 }
 /*read windows page end*/
 
-/* mug page start*/
-.mug-grid {
+/* toast page start*/
+.toast-grid {
     display: grid;
     grid-template-columns: repeat(1, 215px);
     margin-top: 10px;
     margin-bottom: 115px;
     justify-content: center;
-    gap: 80px 13%;
+    justify-items: center;
 }
-.mug1,
-.mug3,
-.mug4 {
-    height: 250px;
-    width: 250px;
-    cursor: pointer;
-    margin-left: -25px;
-}
-.mug2 {
-    height: 250px;
-    width: 130px;
-    cursor: pointer;
-    margin-left: 45px;
-    
-}
-.under-mug {
+.toast1 {
     font-family: 'Times New Roman', Times, serif;
-    font-size: 22px;
-    color: white;
+    color: rgb(65, 65, 65);
+    font-weight: bolder;
+    font-size: 42px;
     text-align: center;
     justify-content: center;
+    background-image: url('Media/toast.png');
+    background-size: cover;
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    cursor:pointer;
     
 }
 .hidden {
@@ -277,13 +270,14 @@ footer {
     font-size: 23px;
     text-align: justify;
     justify-self: center;
-    padding: 0px 20px;
+    padding: 0px 40px;
     width: 90%;
     line-height: 1.7;
     margin-top: 70px;
     user-select: none;   
     text-indent: each-line 35px;  
-	font-family: 'Times New Roman', Times, serif;
+    font-family: 'Times New Roman', Times, serif;
+
 }
 .character-tag {
     text-align: center;
