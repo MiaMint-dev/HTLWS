@@ -261,10 +261,39 @@ footer {
     width: min(400px, 90vw);
     height: auto;
 }
-.card-content {
-    padding: 20px;
+.card-content h3{
+    display: flex;
+    color: white;
+    flex-direction: row;
+    position: fixed;
+    margin-top: 70px;
+    margin-left: 10px;
+    margin-right: 30px;
+    font-size: 19.5px;
+    word-spacing: 0.5px;
+    line-height: 1.7;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: left;
+    font-weight: 550;
 }
-/* mug page end*/
+.card-content {
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+
+}
+#close1,
+#close2,
+#close3,
+#close4 {
+    display: flex;
+    position: fixed;
+    width: 40px;
+    height: 30px;
+    font-size: larger;
+    
+}
+/* toast page end*/
 .chapter {
     display: flex;
     color: rgb(255, 255, 255);
