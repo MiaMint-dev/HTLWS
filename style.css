@@ -318,6 +318,10 @@ footer {
 }
 
 /*About Me Page Start*/
+.letter{
+    width: min(500px, 90vw);
+    height: auto;
+}
 .my-letter {
     background-color: rgb(140, 168, 154);
     height: 850px;
@@ -326,7 +330,7 @@ footer {
     display: flex;
     flex-direction: column;
     margin-top: 70px;
-    padding: 10px 40px;
+    padding: 0px 40px;
 
 }
 .my-letter h1{
