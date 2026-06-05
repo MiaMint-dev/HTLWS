@@ -352,7 +352,7 @@ footer {
     text-align: justify;
     position: relative;
     width: min(450px, 90vw);
-    height: auto ;
+    height: 900px;
 }
 /*About Me Page End*/
 a:link {
