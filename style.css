@@ -320,7 +320,7 @@ footer {
 /*About Me Page Start*/
 .letter{
     width: 100%;
-    height: 100%;
+    height: auto;
 }
 .my-letter {
     background-color: rgb(140, 168, 154);
