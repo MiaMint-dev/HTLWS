@@ -324,13 +324,13 @@ footer {
 }
 .my-letter {
     background-color: rgb(140, 168, 154);
-    height: 850px;
+    height: 900px;
     width: 400px;
     justify-self: center;
     display: flex;
     flex-direction: column;
     margin-top: 70px;
-    padding: 0px 40px;
+    padding: 0px 30px;
 
 }
 .my-letter h1{
