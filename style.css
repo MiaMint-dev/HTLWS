@@ -320,13 +320,14 @@ footer {
 /*About Me Page Start*/
 .my-letter {
     background-color: rgb(140, 168, 154);
-    height: 800px;
+    height: 850px;
     width: 500px;
     justify-self: center;
     display: flex;
     flex-direction: column;
     margin-top: 70px;
     padding: 0px 10px;
+
 }
 .my-letter h1{
     font-family:'Times New Roman', Times, serif;
@@ -336,7 +337,8 @@ footer {
     text-align: center;
     width: 500px;
     height: 60px;
-    position: fixed;
+    position: relative;
+    
 }
 .my-letter p{
     margin-left: 25px;
@@ -344,7 +346,8 @@ footer {
     margin-top: 15px;
     font-size: 22px;
     text-align: justify;
-    position: fixed;
+    position: relative;
+   
     
 }
 /*About Me Page End*/
