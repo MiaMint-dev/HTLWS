@@ -319,14 +319,14 @@ footer {
 
 /*About Me Page Start*/
 .my-letter {
-    background-color: rgb(209, 199, 188);
+    background-color: rgb(140, 168, 154);
     height: 800px;
     width: 500px;
     justify-self: center;
     display: flex;
     flex-direction: column;
     margin-top: 70px;
-    margin: 0px 40px;
+    padding: 0px 40px;
 }
 .my-letter h1{
     font-family:'Times New Roman', Times, serif;
