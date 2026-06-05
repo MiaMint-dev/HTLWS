@@ -321,7 +321,7 @@ footer {
 .my-letter {
     background-color: rgb(140, 168, 154);
     height: 850px;
-    width: 450px;
+    width: min(500px);
     justify-self: center;
     display: flex;
     flex-direction: column;
