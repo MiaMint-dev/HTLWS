@@ -324,7 +324,7 @@ footer {
 }
 .my-letter {
     background-color: rgb(140, 168, 154);
-    height: 1100px;
+    height: 1070px;
     width: 400px;
     justify-self: center;
     display: flex;
@@ -345,6 +345,7 @@ footer {
     
 }
 .my-letter p{
+    font-family: 'Times New Roman', Times, serif;
     margin-left: 25px;
     margin-right: 25px;
     margin-top: 15px;
