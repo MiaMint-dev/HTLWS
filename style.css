@@ -325,7 +325,7 @@ footer {
 .my-letter {
     background-color: rgb(140, 168, 154);
     height: 850px;
-    width: 500px;
+    width: 400px;
     justify-self: center;
     display: flex;
     flex-direction: column;
@@ -339,7 +339,7 @@ footer {
     font-size: 37px;
     color: black;
     text-align: center;
-    width: 500px;
+    width: 400px;
     height: 60px;
     position: relative;
     
