@@ -326,8 +326,7 @@ footer {
     display: flex;
     flex-direction: column;
     margin-top: 70px;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin: 0px 40px;
 }
 .my-letter h1{
     font-family:'Times New Roman', Times, serif;
