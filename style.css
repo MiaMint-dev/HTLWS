@@ -316,40 +316,38 @@ footer {
     display: block;
     justify-self: center;
 }
-/*folders start*/
-.folders {
-    display: grid;
-    grid-template-columns: repeat(2, 200px) ;
-    gap: 100px;
-    justify-content: center;
-}
-.folder-green {
-	background: conic-gradient(from -15deg at 60% 20%, 
-      #0000 105deg, rgb(101, 148, 99) 0%);
-      width:200px;
-      height: 140px;
-      margin-top: 40px;    
-      
-}
-.folder-blue {
-	background: conic-gradient(from -15deg at 60% 20%, 
-      #0000 105deg, rgb(132, 197, 235) 0%);
-      width:200px;
-      height: 140px;
-      margin-top: 40px;     
-}
-.folder-content1 {
-    background-color: black;
-    width: 40%;
-    height: 40%;
-    display: block;
-    align-items: center;
+
+/*About Me Page Start*/
+.my-letter {
+    background-color: rgb(209, 199, 188);
+    height: 800px;
+    width: 500px;
     justify-self: center;
-    top:0;
-    bottom: 0;
-    position: fixed;
-    border-radius: 10%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px;
 }
+.my-letter h1{
+    font-family:'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-size: 37px;
+    color: black;
+    text-align: center;
+    width: 500px;
+    height: 60px;
+}
+.my-letter p{
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 15px;
+    font-size: 22px;
+    text-align: justify;
+    
+}
+.my-letter footer{
+    font-family: 'Times New Roman', Times, serif;
+}
+/*About Me Page End*/
 a:link {
     color: bisque;
 }
