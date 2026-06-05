@@ -321,7 +321,7 @@ footer {
 .my-letter {
     background-color: rgb(140, 168, 154);
     height: 850px;
-    width: min(500px);
+    width: 500px;
     justify-self: center;
     display: flex;
     flex-direction: column;
@@ -347,8 +347,6 @@ footer {
     font-size: 22px;
     text-align: justify;
     position: relative;
-   
-    
 }
 /*About Me Page End*/
 a:link {
