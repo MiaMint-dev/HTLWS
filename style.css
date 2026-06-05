@@ -327,6 +327,8 @@ footer {
     flex-direction: column;
     margin-top: 70px;
     padding: 0px 5px;
+    padding-left: 5px;
+    padding-right: 5px;
 
 }
 .my-letter h1{
