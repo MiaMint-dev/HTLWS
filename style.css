@@ -106,26 +106,26 @@ h1 {
 .ocean {
     display:block;
     width: 450px;
-    margin-right: auto;
+    margin-left: 1050px;
     margin-top: 50px;
 }
 .weeknd {
     display:block;
     width: 450px;
-    margin-left: auto;
+    margin-left: 150px;
     margin-top: 30px;
     margin-bottom: 10px;
 }
 .tenant {
     display:block;
     width: 450px;
-    margin-left: auto;
+    margin-left: 150px;
     margin-top: 80px;
 }
 .paled {
     display:block;
     width: 450px;
-    margin-right: auto;
+    margin-left: 1000px;
     margin-top: 50px;
 }
 .back-home-a {
