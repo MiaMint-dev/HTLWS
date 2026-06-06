@@ -103,6 +103,11 @@ h1 {
     overflow: hidden;
     backdrop-filter: blur(4px);
 }
+.navigation {
+    background-color:rgb(53, 44, 39);
+    font-size: 26px;
+    font-family: 'Times New Roman', Times, serif; 
+}
 .ocean {
     display:block;
     width: 450px;
