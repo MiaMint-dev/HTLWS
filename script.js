@@ -31,6 +31,8 @@ function timer () {
 
 setInterval(timer, 1000);
 }
+timer();
+const countdown = setInterval(timer, 1000);
 
 
 const button =document.getElementById('red');
