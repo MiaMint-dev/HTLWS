@@ -1,372 +1,342 @@
-body {
-    background: rgb(84,69,62);
-}
-h1 {
+.main-title {
+    color: rgb(165, 255, 216);
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: black;
+    font-family: 'Times New Roman', Times, serif;
     text-align: center;
-    color: white;
+    font-size:57px;
+    background-color:rgb(133, 192, 174);
+    background-image: url('Media/homenav.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid black;
+    margin-top: 30px;
+    margin-bottom: 100px;  
+    margin-left: 80px;
+    margin-right: 80px;
+}
+body {
+    min-height: 100vh;
+    background: linear-gradient(
+        to top,
+        rgb(151, 231, 197) 10%,
+        rgb(119, 177, 152) 30%,
+        rgb(89, 134, 115) 60%,
+        rgb(75, 116, 99) 90% 
+);
+
+}
+.desk-title a{
+    display: block;
+    background-image: url('Media/home.png');
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: rgb(39, 36, 36);
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size:9px;
+    background-color:rgb(84, 112, 104);
+    border: 1px solid black;
+    margin-left: 40px;
+    margin-top: 10px;
+    width: 120px;
+    height: 40px;
+    justify-self: left;
 }
 
-/*homepage countdown start*/
-.countdown {
-    display:block;
-    align-items: center;
+.navigation {
+    text-align: center;
+    background-image: url('Media/homenav.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgb(133, 192, 174);
+    position: relative;
+    font-size: 23px;
+    width: 100%;
+    padding: 25px 0px;
+    display: flex;
     justify-content: center;
-    margin-top: 50px;
+    gap: 25px;
+    list-style: none;
+    margin-bottom: 50px;
+    font-weight: bolder;
+    justify-content: space-evenly;
 }
-.countdown h1{
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+.home-widgets {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-items: stretch;
+}
+.home-widgets-left {
+    display: flexbox;
+    justify-content: left;
+    flex-direction: column;
+    
+}
+.home-widgets-right {
+    display: flex;
+    justify-content: right;
+    flex-direction: column;
+    
+}
+.deadline {
+    color: white;
+    background-image: url('Media/greenhearts.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgb(133, 192, 174);
+    position: relative;
+    font-size: 25px;
+    min-width: 280px;
+    height: 10px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    text-align: center;
+    font-weight: lighter;
+    flex-shrink: 0;
+    
+}
+.to-do {
+    color: white;
+    background-image: url(Media/greenhearts.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgb(133, 192, 174);
+    justify-content: center;
+    position: relative;
+    font-size: 25px;
+    min-width: 280px;
+    height: 10px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    flex-shrink: 0;
+          
+}
+.to-do-text {
+    padding-top: 44px;
+    padding-left: 27px;
+    padding-right: 15px;
+    background-image: url(Media/skins.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 280px;
+    height: 300px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+    line-height: 1.5;
+    color: white;
+    border: 3px rgb(8, 77, 8);
+    flex-shrink: 0;
+    text-align: justify;
+    
+   
+    
+}
+.save {
+    width: 150px;
+    height: 40px;
+    align-self: center;
+    background-image: url(Media/greenhearts.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 11px;
+}
+/*desk */
+.desk-page {
+    background-image: url('Media/Gundula\ Blumi\ \(@gundulablumi\)\ on\ Tumblr.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.desk-area {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 30px;
+    align-items: flex-start;
+    max-width: 100%;    
+}
+.savebtn {
+    background-image: url('Media/save\ button.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    width: 150px;
+    height: 40px;
+    align-self: center;
+    margin-bottom: 10px ;
+}
+.desk-widget-right {
+    display: flexbox;
+    align-items: center;
+}
+.pixel-timer {
+    background-image: url('Media/timer.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 180px;
+    width: 190px;
+    flex-shrink: 0;
+    min-width: 200px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    padding: 10px 15px;
+    color: white;
+    font-weight: bolder;
+    margin-top: 80px;  
+}
+.timer {
+    text-align: center;
+    font-size: 45px;
+    margin-top: 40px;
+    color: white;
     -webkit-text-stroke: 0.8px;
     -webkit-text-stroke-color: black;
-    font-size: 26px;
-    justify-self: center;
+
 }
-.timebox {
+.button-wrapper{
     display: flex;
     flex-direction: row;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: larger;
-    font-weight: bolder;
-    color: white;
-    background-color: black;
-    background-image: url('Media/countdownbackground.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    box-shadow: 0 0 5px rgb(36, 30, 27), 0 0 19px rgb(36, 30, 27);
-    height: 150px;
-    width: 450px;
-    justify-self: center;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    gap: 30px;
-}
-.time {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    padding-bottom: 10px;
-    margin-bottom: 0px;
-}
-.time p {
-    margin-top: 0px;
-    margin-bottom: 2PX;
-}
-/*homepage countdown end*/
-
-.main-title {
-    justify-self: center;
-    text-align: center;
-    color: rgb(212, 193, 161);
-    background-image: url('Media/HTLWS.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-color: rgb(216, 216, 216);
-    margin-top: 40px;
-    width: 641px;
-    height: 131px;
-}
-
-.snippet-generator {
-    color: white;
-    font-family: 'Courier New', Courier, monospace;
-    align-content: center;
-    text-align: center;
-    font-size: 13px;
-} 
-#led-board {
-    width: 77%;
-    height: 80px;
-    background-color: rgb(0, 0, 0);
-    box-shadow: 0 0 5px rgb(21, 27, 54), 0 0 19px rgb(21, 27, 54);
-    color: rgb(255, 202, 28);
-    font-family: 'Courier New', Courier, monospace;
-    margin-top: 40px;
-    font-size: 22px;
-   
-}
-.home-navigation {
-    display: flex;
-    font-size: 17px;
-    font-family: 'Times New Roman', Times, serif;
-    color: rgb(84,69,62);
-    position: relative;
-    text-align: center;
     justify-content: space-evenly;
-    margin-top: 50px;
-    border-top: 0px solid #ffffff75;
-    border-left: 0px solid #FFFFFF75;
-    box-shadow: 5px 5px 12px #00000035 ;
-    background: #ffffff15;
-    background-size: cover;
-    background-repeat: no-repeat;
-    border-radius: 1px;
-    overflow: hidden;
-    backdrop-filter: blur(4px);
+    gap: 20px;
+    padding-top: 27px;
+    
 }
-.navigation {
-    background-color:rgb(53, 44, 39);
-    font-size: 26px;
-    font-family: 'Times New Roman', Times, serif; 
+#start,
+#stop,
+#reset {
+    background-color:#032040;
+    color: white;
+     cursor: pointer;
 }
-.ocean {
-    display:block;
-    width: 450px;
-    margin-right: auto;
-    margin-top: 50px;
+
+.desk-center {
+    display: flex;
+    flex-direction: column;
+    max-width: 700px;
+    align-items: stretch;  
+
 }
-.weeknd {
-    display:block;
-    width: 450px;
-    margin-left: auto;
-    margin-top: 30px;
-    margin-bottom: 10px;
-}
-.tenant {
-    display:block;
-    width: 450px;
-    margin-left: auto;
-    margin-top: 80px;
-}
-.paled {
-    display:block;
-    width: 450px;
-    margin-right: auto;
-    margin-top: 50px;
-}
-.back-home-a {
-    font-size: 20px;
-    justify-content: space-between;
-}
-.about {
-    font-family: 'Elsie Swash Caps';
-    font-size: 44px;
-    text-align: center;   
-    color:rgb(177, 169, 169); 
-    margin-bottom: 40px;
-}
-.synopsis {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 18px;
-    text-align: justify;
-    justify-self: center;
-    width: 57%;
-    margin-top: 30px;
+.desk-textbox {
+    height: 800px;
+    -webkit-text-stroke: 0.6px;
+    -webkit-text-stroke-color: black;
+    flex-shrink: 0 ;
+    align-self: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    font-weight: bolder;
+    color: white;
     line-height: 1.5;
-    color: rgb(216, 216, 216);
+    text-align: justify;
+    padding: 10px 15px;
+    text-indent: 40px;
+    width: clamp(600px, 50vw, 800px);
+    max-width: 100%;
+    background-image: url('Media/DPR\ Ian\ \(4\).jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-y: auto;
+    scrollbar-width: none;   
+    padding-bottom: 200px;
    
 }
-.motto {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 23px;
-    text-align: center;
-    justify-self: center;
-    width: 57%;
-    margin-top: 30px;
-    line-height: 1.5;
-    color: rgb(216, 216, 216);
-}
-.footer a {
-    display: block;
-    background-image: url('Instagram.gif');
+
+.desk-widget-left {
+    gap: 30px;
+    opacity: 0.8;
+    color: black;
+    align-items: center;
+   
+   }
+.orange-note {
+    background-image: url('Media/moto.gif');
     background-size: cover;
     background-repeat: no-repeat;
-    height: 60px;
-    width: 60px;
-    margin-top: 100px;
-    margin-bottom: 0px;
-    justify-self: center;
-}
-footer {
-    display: grid;
-    justify-items: center;
-}
-#red {
-    background-size: contain;
-    
-}
-
-/*read windows page start*/
-.window-grid{
-    display: grid;
-    grid-template-columns: repeat(3, 215px);
-    gap: 80px 10%;
-    margin-top: 115px;
-    justify-content: center; 
-}
-.window-1 {
-    height: 215px;
-    width: 215px;
-    box-shadow: 0 0 5px rgb(0, 0, 0), 0 0 19px rgb(0, 0, 0);
-    
-}
-.under-window {
+    height: 170px;
+    width: 170px;
+    flex-shrink: 0;
+    min-width: 200px;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 22px;
+    font-size: 20px;
+    padding: 10px 15px;
     color: white;
-    margin-left: 65px;
-    
-}
-/*read windows page end*/
-
-/* toast page start*/
-.toast-grid {
-    display: grid;
-    grid-template-columns: repeat(1, 215px);
-    margin-top: 10px;
-    margin-bottom: 115px;
-    justify-content: center;
-    justify-items: center;
-}
-.toast1 {
-    font-family: 'Times New Roman', Times, serif;
-    color: rgb(65, 65, 65);
     font-weight: bolder;
-    font-size: 42px;
-    text-align: center;
-    justify-content: center;
-    background-image: url('Media/toast.png');
+    
+
+}
+
+.green-note {
+    background-image: url('Media/coffee.gif');
     background-size: cover;
-    width: 400px;
-    height: 400px;
-    display: flex;
-    flex-direction: column;
-    cursor:pointer;
-    
-}
-.hidden {
-    display: none !important;
-}
-.card1,
-.card2,
-.card3,
-.card4 {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0,0,0,0.6);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.card1 img {
-    width: min(400px, 90vw);
-    height: auto;
-}
-.card2 img {
-    width: min(400px, 90vw);
-    height: auto;
-}
-.card3 img {
-    width: min(400px, 90vw);
-    height: auto;
-}
-.card4 img {
-    width: min(400px, 90vw);
-    height: auto;
-}
-.card-content h3{
-    display: flex;
+    background-repeat: no-repeat;
+    height: 170px;
+    width: 170px;
+    flex-shrink: 0;
+    min-width: 200px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    padding: 10px 15px;
     color: white;
-    flex-direction: row;
-    position: fixed;
-    margin-top: 70px;
-    font-size: 19.5px;
-    word-spacing: 0.5px;
-    line-height: 1.7;
-    font-family: 'Courier New', Courier, monospace;
-    text-align: left;
-    font-weight: 550;
-    width: min(400px, 90vw);
-    height: auto ;
+    font-weight: bolder;
 }
-.card-content {
-    display: flex;
-    flex-direction: row;
-    position: fixed;
-
-}
-#close1,
-#close2,
-#close3,
-#close4 {
-    display: flex;
-    position: fixed;
-    width: 40px;
-    height: 30px;
-    font-size: larger;
-    
-}
-/* toast page end*/
-.chapter {
-    display: flex;
-    color: rgb(255, 255, 255);
-    font-size: 23px;
-    text-align: justify;
-    justify-self: center;
-    padding: 0px 40px;
-    width: 90%;
-    line-height: 1.7;
-    margin-top: 70px;
-    user-select: none;   
-    text-indent: each-line 35px;  
+.blue-note {
+    background-image: url('Media/sink.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 170px;
+    width: 170px;
+    flex-shrink: 0;
+    min-width: 200px;
     font-family: 'Times New Roman', Times, serif;
-
+    font-size: 20px;
+    padding: 10px 15px;
+    color: white;
+    font-weight: bolder;
 }
-.character-tag {
-    text-align: center;
+.yellow-note {
+     background-image: url('Media/homenav.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 170px;
+    width: 170px;
+    flex-shrink: 0;
+    min-width: 200px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    padding: 10px 15px;
+    color: white;
+    font-weight: bolder;
 }
-#snippet-generator {
-    display: block;
-    justify-self: center;
-}
-
-/*About Me Page Start*/
-.letter{
-    width: 100%;
-    height: auto;
-}
-.my-letter {
-    background-color: rgb(140, 168, 154);
-    height: 1080px;
-    width: 400px;
-    justify-self: center;
+.desk-widget-left,
+.desk-widget-right {
+    width: 300px;
     display: flex;
     flex-direction: column;
-    margin-top: 70px;
-    padding: 0px 30px;
-
-}
-.my-letter h1{
-    font-family:'Times New Roman', Times, serif;
-    font-style: oblique;
-    font-size: 37px;
-    color: black;
-    text-align: center;
-    width: 400px;
-    height: 60px;
-    position: relative;
+    flex: 1;
     
 }
-.my-letter p{
-    font-family: 'Times New Roman', Times, serif;
-    margin-left: 25px;
-    margin-right: 25px;
-    margin-top: 15px;
-    font-size: 22px;
-    text-align: justify;
-    position: relative;
-    width: min(350px, 90vw);
-    height: auto;
+.desk-textbox,
+.desk-widget-left,
+.desk-widget-right {
+  min-width: 0;
+  flex-shrink: 1;
+  overflow-x: hidden;
+  
+  
 }
-/*About Me Page End*/
 a:link {
-    color: bisque;
+    color:white;
 }
 a:visited {
-    color:rgb(216, 204, 204);
+    color: white;
 }
 a:hover {
-    color:rgba(133, 131, 131, 0.856);
+    color: rgb(116, 1, 1);
 }
