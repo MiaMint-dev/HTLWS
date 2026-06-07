@@ -124,3 +124,5 @@ if(folderclose1 && foldercard1) {
   });
 }
 
+console.log('Hi, fellow coding person');
+
