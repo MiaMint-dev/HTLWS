@@ -98,7 +98,7 @@ body {
 }
 .to-do {
     color: white;
-    background-image: url(Media/greenhearts.jpg);
+    background-image: url('Media/greenhearts.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-color: rgb(133, 192, 174);
@@ -119,7 +119,7 @@ body {
     padding-top: 44px;
     padding-left: 27px;
     padding-right: 15px;
-    background-image: url(Media/skins.gif);
+    background-image: url('Media/skins.gif');
     background-size: cover;
     background-repeat: no-repeat;
     width: 280px;
@@ -139,7 +139,7 @@ body {
     width: 150px;
     height: 40px;
     align-self: center;
-    background-image: url(Media/greenhearts.jpg);
+    background-image: url('Media/greenhearts.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     color: white;
