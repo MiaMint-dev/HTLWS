@@ -37,12 +37,12 @@ h1 {
    padding-top: 33px;
     text-align: center;
      display: inline-block;
-    animation: scrollText 15s linear infinite;
+    animation: scrollText 25s linear infinite;
     
 }
 @keyframes scrollText {
     from {
-        transform: translateX(100%);
+        transform: translateX(60%);
     }
 
     to {

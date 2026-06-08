@@ -29,7 +29,7 @@ function timer () {
     
     ledBoard.textContent = "New chapter out!";
     }  else if (days === 0) {
-    ledBoard.textContent = "The new chapter is out in less than 24 hours!";
+    ledBoard.textContent = "The new chapter is out in less than 24 hours! * The new chapter is out in less than 24 hours!";
     } else {
     ledBoard.textContent = "Read the latest chapter as you wait for the next!";
 }
