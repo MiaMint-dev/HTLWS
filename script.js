@@ -27,11 +27,13 @@ function timer () {
     Minutes.textContent = "00";
     Seconds.textContent = "00";
     
-    ledBoard.textContent = "New chapter out!";
+    ledBoard.textContent = "A new chapter is finally out! * A new chapter is finally out!";
     }  else if (days === 0) {
     ledBoard.textContent = "The new chapter is out in less than 24 hours! * The new chapter is out in less than 24 hours!";
-    } else {
-    ledBoard.textContent = "Read the latest chapter as you wait for the next!";
+    } else if ( days > 2) {
+      ledBoard.textContent = "A new chapter has been uploaded! * A new chapter has been uploaded!";
+  }else {
+    ledBoard.textContent = "Read the latest chapter as you wait for the next! * Read the latest chapter as you wait for the next!";
 }
 
 }
