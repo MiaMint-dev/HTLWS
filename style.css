@@ -72,6 +72,7 @@ h1 {
     align-content: center;
     text-align: center;
     font-size: 13px;
+    
 } 
 #led-board {
     width: 77%;
@@ -81,9 +82,8 @@ h1 {
     color: rgb(255, 202, 28);
     font-family: 'Courier New', Courier, monospace;
     margin-top: 40px;
-    font-size: 22px;
-   
-}
+    font-size: 20px;
+  }
 .home-navigation {
     display: flex;
     font-size: 17px;
@@ -361,6 +361,11 @@ footer {
     height: auto;
 }
 /*About Me Page End*/
+
+
+
+
+
 a:link {
     color: bisque;
 }

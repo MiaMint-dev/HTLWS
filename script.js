@@ -2,6 +2,7 @@ const Days = document.getElementById('days');
 const Hours = document.getElementById('hours');
 const Minutes = document.getElementById('minutes');
 const Seconds = document.getElementById('seconds');
+const ledBoard =document.getElementById('led-board');
 
 if (Days && Hours && Minutes && Seconds) {
 const targetDate = new Date("June 8 2026 16:00:00").getTime();
@@ -15,24 +16,29 @@ function timer () {
   const minutes = Math.floor(distance / 1000 / 60) % 60;
   const seconds = Math.floor(distance / 1000) % 60;
 
-  Days.innerHTML = days;
-  Hours.innerHTML = hours;
-  Minutes.innerHTML = minutes;
-  Seconds.innerHTML = seconds;
+  Days.textContent = days;
+  Hours.textContent = hours;
+  Minutes.textContent = minutes;
+  Seconds.textContent = seconds;
 
   if(distance < 0){
-    Days.innerHTML = "00";
-    Hours.innerHTML = "00";
-    Minutes.innerHTML = "00";
-    Seconds.innerHTML = "00";
-    return;
-    }
+    Days.textContent = "00";
+    Hours.textContent = "00";
+    Minutes.textContent = "00";
+    Seconds.textContent = "00";
+    
+    ledBoard.textContent = "New chapter out!";
+    }  else if (days === 0) {
+    ledBoard.textContent = "New chapter out in less than 24 hours!";
+    } else {
+    ledBoard.textContent = "Read the latest chapter as you wait for the next!";
+}
+
 }
 
 timer();
 const countdown = setInterval(timer, 1000);
 }
-
 
 
 const button =document.getElementById('red');
@@ -46,6 +52,15 @@ button.addEventListener('click', () => {
 
   clickSound.play();
 });
+}
+
+
+const board = document.getElementById('led-board');
+if (board) {
+const targetDate = new Date ("June 8 2026 16:00:00").getTime();
+console.log('New chapter out!');
+} else {
+ console.log('Coming soon');
 }
 
 
@@ -125,6 +140,5 @@ if(folderclose1 && foldercard1) {
     foldercard1.classList.add("hidden");
   });
 }
-
 console.log('Hi, fellow coding person');
 
