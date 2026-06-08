@@ -61,43 +61,10 @@ h1 {
     background-repeat: no-repeat;
     background-size: cover;
     background-color: rgb(216, 216, 216);
-    margin-top: 40px;
+    margin-top: 30px;
     width: 641px;
     height: 131px;
-}
-
-.snippet-generator {
-    color: white;
-    font-family: 'Courier New', Courier, monospace;
-    align-content: center;
-    text-align: center;
-    font-size: 13px;
-    
-} 
-#led-board {
-    width: 77%;
-    height: 80px;
-    background-color: rgb(0, 0, 0);
-    box-shadow: 0 0 5px rgb(21, 27, 54), 0 0 19px rgb(21, 27, 54);
-    color: rgb(255, 202, 28);
-    font-family: 'Courier New', Courier, monospace;
-    margin-top: 40px;
-    font-size: 20px;
-     
-  }
-#led-text {
-    display: inline-block;
-    animation: scrollText 10s linear infinite;
-    font-family: 'Courier New', Courier, monospace;
-}
-@keyframes scrollText {
-    from {
-        transform: translateX(100%);
-    }
-
-    to {
-        transform: translateX(-100%);
-    }
+    margin-bottom: 30px;
 }
 .home-navigation {
     display: flex;
@@ -107,7 +74,7 @@ h1 {
     position: relative;
     text-align: center;
     justify-content: space-evenly;
-    margin-top: 50px;
+    margin-top: 35px;
     border-top: 0px solid #ffffff75;
     border-left: 0px solid #FFFFFF75;
     box-shadow: 5px 5px 12px #00000035 ;
@@ -194,6 +161,7 @@ h1 {
 footer {
     display: grid;
     justify-items: center;
+    margin-bottom: 0%;
 }
 #red {
     background-size: contain;
@@ -377,8 +345,8 @@ footer {
 }
 /*About Me Page End*/
 .board{
-    width: 600px;
-    height: 85px;
+    width: 650px;
+    height: 90px;
     background-color: black;
     box-shadow: 0 0 5px rgb(21, 27, 54), 0 0 19px rgb(21, 27, 54);
     display: block;
