@@ -2,7 +2,7 @@ const Days = document.getElementById('days');
 const Hours = document.getElementById('hours');
 const Minutes = document.getElementById('minutes');
 const Seconds = document.getElementById('seconds');
-const ledBoard =document.getElementById('led-board');
+const ledBoard =document.getElementById('board-text');
 
 if (Days && Hours && Minutes && Seconds) {
 const targetDate = new Date("June 8 2026 16:00:00").getTime();
@@ -29,7 +29,7 @@ function timer () {
     
     ledBoard.textContent = "New chapter out!";
     }  else if (days === 0) {
-    ledBoard.textContent = "New chapter out in less than 24 hours!";
+    ledBoard.textContent = "The new chapter is out in less than 24 hours!";
     } else {
     ledBoard.textContent = "Read the latest chapter as you wait for the next!";
 }
@@ -55,13 +55,6 @@ button.addEventListener('click', () => {
 }
 
 
-const board = document.getElementById('led-board');
-if (board) {
-const targetDate = new Date ("June 8 2026 16:00:00").getTime();
-console.log('New chapter out!');
-} else {
- console.log('Coming soon');
-}
 
 
 const mug1 = document.getElementById('rain-mug');

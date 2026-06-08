@@ -83,7 +83,22 @@ h1 {
     font-family: 'Courier New', Courier, monospace;
     margin-top: 40px;
     font-size: 20px;
+     
   }
+#led-text {
+    display: inline-block;
+    animation: scrollText 10s linear infinite;
+    font-family: 'Courier New', Courier, monospace;
+}
+@keyframes scrollText {
+    from {
+        transform: translateX(100%);
+    }
+
+    to {
+        transform: translateX(-100%);
+    }
+}
 .home-navigation {
     display: flex;
     font-size: 17px;
@@ -361,6 +376,36 @@ footer {
     height: auto;
 }
 /*About Me Page End*/
+.board{
+    width: 600px;
+    height: 85px;
+    background-color: black;
+    box-shadow: 0 0 5px rgb(21, 27, 54), 0 0 19px rgb(21, 27, 54);
+    display: block;
+    justify-self: center;
+    overflow: hidden;
+    white-space: nowrap;
+   
+}
+#board-text{
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(255, 202, 28);
+   padding-top: 33px;
+    text-align: center;
+     display: inline-block;
+    animation: scrollText 15s linear infinite;
+    
+}
+@keyframes scrollText {
+    from {
+        transform: translateX(100%);
+    }
+
+    to {
+        transform: translateX(-100%);
+    }
+}
 
 
 
