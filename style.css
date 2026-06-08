@@ -5,54 +5,6 @@ h1 {
     text-align: center;
     color: white;
 }
-
-/*homepage countdown start*/
-.countdown {
-    display:block;
-    align-items: center;
-    justify-content: center;
-    margin-top: 50px;
-}
-.countdown h1{
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    -webkit-text-stroke: 0.8px;
-    -webkit-text-stroke-color: black;
-    font-size: 26px;
-    justify-self: center;
-}
-.timebox {
-    display: flex;
-    flex-direction: row;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: larger;
-    font-weight: bolder;
-    color: white;
-    background-color: black;
-    background-image: url('Media/countdownbackground.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    box-shadow: 0 0 5px rgb(36, 30, 27), 0 0 19px rgb(36, 30, 27);
-    height: 150px;
-    width: 450px;
-    justify-self: center;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    gap: 30px;
-}
-.time {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    padding-bottom: 10px;
-    margin-bottom: 0px;
-}
-.time p {
-    margin-top: 0px;
-    margin-bottom: 2PX;
-}
-/*homepage countdown end*/
-
 .main-title {
     justify-self: center;
     text-align: center;
@@ -65,6 +17,47 @@ h1 {
     width: 641px;
     height: 131px;
     margin-bottom: 30px;
+}
+.board{
+    width: 700px;
+    height: 90px;
+    background-color: black;
+    box-shadow: 0 0 5px rgb(21, 27, 54), 0 0 19px rgb(21, 27, 54);
+    display: block;
+    justify-self: center;
+    overflow: hidden;
+    white-space: nowrap;
+    outline: rgb(94, 86, 86) 1px solid;
+   
+}
+#board-text{
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(255, 202, 28);
+   padding-top: 33px;
+    text-align: center;
+     display: inline-block;
+    animation: scrollText 15s linear infinite;
+    
+}
+@keyframes scrollText {
+    from {
+        transform: translateX(100%);
+    }
+
+    to {
+        transform: translateX(-100%);
+    }
+}
+.motto {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 23px;
+    text-align: center;
+    justify-self: center;
+    width: 57%;
+    margin-top: 30px;
+    line-height: 1.5;
+    color: rgb(216, 216, 216);
 }
 .home-navigation {
     display: flex;
@@ -137,16 +130,53 @@ h1 {
     color: rgb(216, 216, 216);
    
 }
-.motto {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 23px;
-    text-align: center;
-    justify-self: center;
-    width: 57%;
-    margin-top: 30px;
-    line-height: 1.5;
-    color: rgb(216, 216, 216);
+/*homepage countdown start*/
+.countdown {
+    display:block;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
 }
+.countdown h1{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    -webkit-text-stroke: 0.8px;
+    -webkit-text-stroke-color: black;
+    font-size: 26px;
+    justify-self: center;
+}
+.timebox {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+    font-weight: bolder;
+    color: white;
+    background-color: black;
+    background-image: url('Media/countdownbackground.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 0 0 5px rgb(36, 30, 27), 0 0 19px rgb(36, 30, 27);
+    height: 150px;
+    width: 450px;
+    justify-self: center;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.time {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 10px;
+    margin-bottom: 0px;
+}
+.time p {
+    margin-top: 0px;
+    margin-bottom: 2PX;
+}
+/*homepage countdown end*/
+
 .footer a {
     display: block;
     background-image: url('Instagram.gif');
@@ -344,37 +374,6 @@ footer {
     height: auto;
 }
 /*About Me Page End*/
-.board{
-    width: 750px;
-    height: 90px;
-    background-color: black;
-    box-shadow: 0 0 5px rgb(21, 27, 54), 0 0 19px rgb(21, 27, 54);
-    display: block;
-    justify-self: center;
-    overflow: hidden;
-    white-space: nowrap;
-    outline: rgb(94, 86, 86) 1px solid;
-   
-}
-#board-text{
-    font-size: 20px;
-    font-family: 'Courier New', Courier, monospace;
-    color: rgb(255, 202, 28);
-   padding-top: 33px;
-    text-align: center;
-     display: inline-block;
-    animation: scrollText 15s linear infinite;
-    
-}
-@keyframes scrollText {
-    from {
-        transform: translateX(100%);
-    }
-
-    to {
-        transform: translateX(-100%);
-    }
-}
 
 
 
