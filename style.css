@@ -345,7 +345,7 @@ footer {
 }
 /*About Me Page End*/
 .board{
-    width: 650px;
+    width: 750px;
     height: 90px;
     background-color: black;
     box-shadow: 0 0 5px rgb(21, 27, 54), 0 0 19px rgb(21, 27, 54);
@@ -353,6 +353,7 @@ footer {
     justify-self: center;
     overflow: hidden;
     white-space: nowrap;
+    outline: rgb(94, 86, 86) 1px solid;
    
 }
 #board-text{
