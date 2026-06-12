@@ -79,8 +79,7 @@ h1 {
     backdrop-filter: blur(4px);
 }
 .navigation {
-    background-color:rgb(53, 44, 39);
-    font-size: 26px;
+    font-size: 24px;
     font-family: 'Times New Roman', Times, serif; 
 }
 .ocean {
@@ -374,8 +373,24 @@ footer {
     height: auto;
 }
 /*About Me Page End*/
-
-
+.room-grid{
+     display: grid;
+    grid-template-columns: repeat(3, 215px);
+    gap: 80px 10%;
+    margin-top: 115px;
+    justify-content: center; 
+}
+.under-room {
+     font-family: 'Times New Roman', Times, serif;
+    font-size: 21px;
+    color: white;
+    margin-left: 35px;
+}
+.door {
+    width: 148px;
+    height: 292px;
+    margin-left: 45px;
+}
 
 
 
