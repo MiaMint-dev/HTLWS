@@ -391,7 +391,10 @@ footer {
     height: 292px;
     margin-left: 45px;
 }
-
+.comment-form{
+    justify-self: center;
+    
+}
 
 
 a:link {
