@@ -5,7 +5,7 @@ const Seconds = document.getElementById('seconds');
 const ledBoard =document.getElementById('board-text');
 
 if (Days && Hours && Minutes && Seconds && ledBoard) {
-const targetDate = new Date("June 15 2026 16:00:00").getTime();
+const targetDate = new Date("June 19 2026 16:00:00").getTime();
 
 function timer () {
   const currentDate = new Date().getTime();
@@ -27,7 +27,7 @@ function timer () {
     Minutes.textContent = "00";
     Seconds.textContent = "00";
     
-    ledBoard.textContent = "The new chapter will be out shortly! * The new chapter will be out shortly!";
+    ledBoard.textContent = "A new chapter is finally out! * A new chapter is finally out!";
     }  else if (days === 0) {
     ledBoard.textContent = "The new chapter is out in less than 24 hours! * The new chapter is out in less than 24 hours!";
     } else if ( days > 2) {
