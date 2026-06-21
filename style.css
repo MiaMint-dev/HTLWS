@@ -43,7 +43,7 @@ h1 {
 }
 @keyframes scrollText {
     from {
-        transform: translateX(60%);
+        transform: translateX(700px);
     }
 
     to {
