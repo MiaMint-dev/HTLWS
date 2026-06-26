@@ -33,7 +33,7 @@ function timer () {
     } else if ( days > 2) {
       ledBoard.textContent = "A new chapter has been uploaded! * A new chapter has been uploaded!";
   }else {
-    ledBoard.textContent = "Read the latest chapter now while you wait! * Read the latest chapter now while you wait!";
+    ledBoard.textContent = "Read the latest chapter as you wait for the next! * Read the latest chapter as you wait for the next!";
 }
 
 }
