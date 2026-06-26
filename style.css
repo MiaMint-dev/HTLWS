@@ -5,6 +5,7 @@ h1 {
     text-align: center;
     color: white;
 }
+
 .main-title {
     justify-self: center;
     text-align: center;
@@ -410,7 +411,69 @@ footer {
     justify-self: center;
     
 }
-
+/*mp3 start*/
+.mp3-box{
+    display: block;
+    width: 630px;
+    height: 180px;
+    background: linear-gradient(
+        to bottom,
+        #8b806f, 
+        #e8decc, 
+        #8b806f, 
+        #b3ae9a,
+        #8d8c88
+    );
+    justify-self: center;
+    margin-top: 40px;
+}
+.fm{
+    display: inline-block;
+    margin-left: 360px;
+    margin-top: 23px;
+    color: black;
+    font-size: 23px;
+    font-family: 'Courier New', Courier, monospace;
+   
+}
+.slider{
+    display: inline-block;
+    margin-left: 335px;
+    margin-top: 20px;
+    width: 250px;
+}
+.mp3-screen {
+    display:inline-block;
+    background-color: black;
+    width: 260px;
+    height: 111px; 
+    margin-left: 20px; 
+    margin-top: -35px; 
+}
+.mp3-buttons{
+    display: grid;
+    grid-template-columns: repeat(4, 70px); 
+    justify-self:right;
+    margin-right: 20px;
+    margin-top: -95.5px;
+}
+#r-button, 
+#h-button{
+    border-radius: 50%;
+    width: 65px;
+    height: 65px; 
+    background-color: #7ac0c0;  
+    color: white; 
+}
+#e-button, 
+#v-button{
+    border-radius: 50%;
+    width: 65px;
+    height: 65px;  
+    background-color: #c0b84a; 
+    color: white; 
+}
+/*mp3 end*/
 
 a:link {
     color: bisque;
