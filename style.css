@@ -37,7 +37,7 @@ h1 {
     padding-top: 33px;
     text-align: center;
     display: inline-block;
-    animation: scrollText 25s linear infinite;
+    animation: scrollText 22s linear infinite;
     will-change: transform;
     
 }
