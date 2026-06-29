@@ -5,7 +5,7 @@ const Seconds = document.getElementById('seconds');
 const ledBoard = document.getElementById('board-text');
 
 if (Days && Hours && Minutes && Seconds && ledBoard) {
-const targetDate = new Date("June 29 2026 16:00:00").getTime();
+const targetDate = new Date("June 29 2026 18:00:00").getTime();
 
 function timer () {
   const currentDate = new Date().getTime();
