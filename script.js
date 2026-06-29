@@ -5,7 +5,7 @@ const Seconds = document.getElementById('seconds');
 const ledBoard = document.getElementById('board-text');
 
 if (Days && Hours && Minutes && Seconds && ledBoard) {
-const targetDate = new Date("June 29 2026 18:00:00").getTime();
+const targetDate = new Date("July 3 2026 16:00:00").getTime();
 
 function timer () {
   const currentDate = new Date().getTime();
@@ -27,7 +27,7 @@ function timer () {
     Minutes.textContent = "00";
     Seconds.textContent = "00";
     
-    ledBoard.textContent = "The new chapter will be out at 6 PM EST! * The new chapter will be out at 6 PM EST!";
+    ledBoard.textContent = "The new chapter will be out shortly! * The new chapter will be out shortly!";
     }  else if (days === 0) {
     ledBoard.textContent = "A chapter will be out in less than 24 hours! * A chapter will be out in less than 24 hours!";
     } else if ( days > 2) {
@@ -137,3 +137,80 @@ if(folderclose1 && foldercard1) {
 }
 console.log('Hi, fellow coding person');
 
+const btnR = document.getElementById('r-button');
+const btnE = document.getElementById('e-button');
+const btnH = document.getElementById('h-button');
+const btnV = document.getElementById('v-button');
+const mp3Text = document.getElementById('mp3-screen-text');
+const mp3Volume = document.getElementById('mp3-volume');
+
+mp3Volume.addEventListener('input', () => {
+  const currentVolume = Number(mp3Volume.value);
+
+  trackR.volume = currentVolume;
+  trackE.volume = currentVolume;
+  trackH.volume = currentVolume;
+  trackV.volume = currentVolume;
+
+});
+
+const trackR = new Audio('track.mp3');
+const trackE = new Audio('track.mp3');
+const trackH = new Audio('track.mp3');
+const trackV = new Audio('track.mp3');
+
+trackR.loop= true;
+trackE.loop= true;
+trackH.loop = true;
+trackV.loop = true;
+ 
+function stopAllTracks() {
+  trackR.pause();
+  trackE.pause();
+  trackH.pause();
+  trackV.pause();
+}
+
+if(btnR) {
+  btnR.addEventListener('click', () => {
+    if(trackR.paused) {
+      stopAllTracks();
+      trackR.play();
+      mp3Text.textContent = "Rain's Track";
+  }else{
+    trackR.pause();
+    mp3Text.textContent = "HTLWS";
+  }})};
+
+if(btnE) {
+  btnE.addEventListener('click', () => {
+    if(trackE.paused) {
+      stopAllTracks();
+      trackE.play();
+      mp3Text.textContent = "Egon's Track";
+    }else {
+      trackE.pause();
+      mp3Text.textContent = "HTLWS";
+    }})};
+
+if(btnH) {
+  btnH.addEventListener('click', () => {
+    if(trackH.paused) {
+      stopAllTracks();
+      trackH.play();
+      mp3Text.textContent = "Hael's Track";
+    }else {
+      trackH.pause();
+      mp3Text.textContent= "HTLWS";
+    }})};
+
+if(btnV) {
+  btnV.addEventListener('click', () => {
+    if(trackV.paused) {
+      stopAllTracks();
+      trackV.play();
+      mp3Text.textContent = "Hael's Track";
+    }else {
+      trackV.pause();
+      mp3Text.textContent= "HTLWS";
+    }})};
