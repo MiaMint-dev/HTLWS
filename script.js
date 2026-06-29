@@ -27,7 +27,7 @@ function timer () {
     Minutes.textContent = "00";
     Seconds.textContent = "00";
     
-    ledBoard.textContent = "The new chapter will be out shortly! * The new chapter will be out shortly!";
+    ledBoard.textContent = "The new chapter will be out at 6 PM EST! * The new chapter will be out at 6 PM EST!";
     }  else if (days === 0) {
     ledBoard.textContent = "A chapter will be out in less than 24 hours! * A chapter will be out in less than 24 hours!";
     } else if ( days > 2) {
